@@ -798,7 +798,6 @@ background-color: #F3E8FF;
 .authors .continer .meet-authors .authors-comment{
     width: 100%;
     height: 500px;
-    background-color: green;
      display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -809,7 +808,6 @@ background-color: #F3E8FF;
 .authors .continer .meet-authors .authors-comment .card{
     width: 31%;
     height: 100%;
-    background-color: gold;
    border: 4px solid black;
    box-shadow: 5px 5px 0px black;
    display: flex;
@@ -818,9 +816,34 @@ background-color: #F3E8FF;
    transition: all 0.3s;
     
 }
-.authors .continer .meet-authors .authors-comment .card:hover{
-    transform: translate(-2px, -2px);
+.authors .continer .meet-authors .authors-comment .card-1{
+    background-color: #FEF9C2;
 }
+
+.authors .continer .meet-authors .authors-comment .card-1:hover .inner h4{
+    color: #E7000B;
+}
+
+.authors .continer .meet-authors .authors-comment .card-2{
+    background-color: #DBFCE7;
+}
+
+.authors .continer .meet-authors .authors-comment .card-2:hover .inner h4{
+    color: #155DFC;
+}
+
+.authors .continer .meet-authors .authors-comment .card-3{
+    background-color: #FCE7F3;
+}
+
+.authors .continer .meet-authors .authors-comment .card-3:hover .inner h4{
+    color: #9810FA;
+}
+
+.authors .continer .meet-authors .authors-comment .card:hover{
+    transform: translate(-4px, -4px);
+}
+
 .authors .continer .meet-authors .authors-comment .card .inner{
 display: flex;
 justify-content: center;
@@ -828,6 +851,60 @@ align-items: center;
 flex-direction: column;
 text-align: center;
 gap: 20px;
+position: relative;
+}
+
+.authors .continer .meet-authors .authors-comment .card .inner .mark-founder{
+    width: 80px;
+    height: 25px;
+    background-color: #FB2C36;
+    border: 2px black solid;
+    color: white;
+    font-size: 12px;
+    font-family: exo;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    transform: rotate(25deg);
+
+}
+.authors .continer .meet-authors .authors-comment .card .inner .mark-lead{
+        width: 50px;
+    height: 25px;
+    background-color: #2B7FFF;
+    border: 2px black solid;
+    color: white;
+    font-size: 12px;
+    font-family: exo;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    transform: rotate(-20deg);
+}
+.authors .continer .meet-authors .authors-comment .card .inner .mark-viral{
+        width: 50px;
+    height: 25px;
+    background-color: #AD46FF;
+    border: 2px black solid;
+    color: white;
+    font-size: 12px;
+    font-family: exo;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    transform: rotate(45deg);
 }
 
 .authors .continer .meet-authors .authors-comment .card .inner .img-authors{
